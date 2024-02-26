@@ -1,22 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
     <title>Theme Toggle</title>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="any">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="any" />
 </head>
+
 <body>
     <header>
-        
+        <div class="header-container">
+            <div class="logo">
+                <img src="./images/alarado-icon-homepage.svg" alt="" />
+            </div>
+            <div class="nav-list">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Resource</a></li>
+                <li><a href="#">Contact</a></li>
+            </div>
+            <div class="toggle-theme">
+                <img class="light-mode-icon" src="./images/Sun_fill.svg" alt="">
+                <img class="dark-mode-icon" src="./images/Moon_fill.svg" alt="">
+            </div>
+        </div>
     </header>
 
     <main>
-        
+        <section class="main-container">
+            <div class="text-container">
+                <div class="row">
+                    <p class="sub-heading">&#128526 simple way to communicate</p>
+                </div>
+                <div class="row">
+                    <h6>
+                        Actions for <br> Accessibility <br> in Design
+                    </h6>
+                </div>
+                <div class="row">
+                    <p class="para">
+                        The fastest way to build and deploy websites with <br> resusable components.
+                    </p>
+                </div>
+                <div class="row btn-link-container">
+                    <div class="btn">Get Started</div>
+                    <div class="link">Get live demo</div>
+                </div>
+                <div class="row facilities">
+                    <div class="facilities-credit-card">
+                        <img src="./images/Done_ring_round_fill.svg" alt="">
+                        <p>No credit card required</p>
+                    </div>
+                    <div class="facilities-software">
+                        <img src="./images/Done_ring_round_fill.svg" alt="">
+                        <p>No software to install</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="./images/hero-image-simple-homepage.png" alt="">
+            </div>
+        </section>
     </main>
 
-
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
